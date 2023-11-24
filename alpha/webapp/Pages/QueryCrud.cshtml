@@ -1,0 +1,275 @@
+﻿@page
+@model MyApp.Namespace.QueryCrudModel
+@{
+	@* ViewData["Title"] = "QueryCrud"; *@
+}
+<script type="module">
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+	import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-analytics.js";
+	import { getDatabase, ref, set, get } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-database.js"; // Add this line
+
+	// Your web app's Firebase configuration
+	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	const firebaseConfig = {
+		apiKey: "AIzaSyCjPFrzPh0fFFZ6UQU2SFNZtGLtuTg-SSc",
+		authDomain: "alpha-59081.firebaseapp.com",
+		databaseURL: "https://alpha-59081-default-rtdb.firebaseio.com",
+		projectId: "alpha-59081",
+		storageBucket: "alpha-59081.appspot.com",
+		messagingSenderId: "593487366620",
+		appId: "1:593487366620:web:1049b037b0c113416e6719"
+	};
+
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
+	const database = getDatabase(app);
+
+	// Your database reference
+	const dbRef = ref(database, 'ClientInfo');
+
+	// Sample function to add data to Firebase
+	function addToFirebase(data) {
+		set(ref(dbRef, 'https://alpha-59081-default-rtdb.firebaseio.com/ClientInfo.json'), data);
+	}
+
+	// Sample function to read data from Firebase
+	async function readFromFirebase() {
+		const snapshot = await get(ref(dbRef, 'https://alpha-59081-default-rtdb.firebaseio.com/ClientInfo.json'));
+		if (snapshot.exists()) {
+			console.log(snapshot.val());
+			// Update your Model or perform other actions based on the data
+		} else {
+			console.log("No data available");
+		}
+	}
+</script>
+
+<form method="post" enctype="multipart/form-data">
+	<div class="row text-center justify-content-center mt-0 pt-3">
+		<div class="col-10 justify-content-center">
+			<h5>Search</h5>
+			<div class="row mb-3 justify-content-center">
+				<div class="col-2">
+					<label for="LPSearch" class="col-form-label">License Plate No.</label>
+				</div>
+				<div class="col-4">
+					<input type="search" class="form-control" placeholder="LP Number" id="LPNumber" name="LPNumber"
+						value="@Model.LPNumber">
+				</div>
+				<div class="col-2">
+					<button type="submit" class="btn btn-dark" name="ButtonPressed" value="SearchByLicensePlateNo">
+						Search
+					</button>
+				</div>
+			</div>
+			<div class="row mb-3 justify-content-center">
+				<div class="col-2">
+					<label for="SelectedTeamId" class="col-form-label">Group</label>
+				</div>
+				<div class="col-4">
+					<select class="form-select" id="SelectedTeamId" name="SelectedTeamId">
+						<option value="">Select ...</option>
+						@if (Model != null && Model.SelectListOfTeams != null)
+						{
+							@foreach (var item in Model.SelectListOfTeams)
+							{
+								<option value="@item.ValueField" selected=@(Model.SelectedTeamId == item.ValueField)>
+									@item.DisplayField
+								</option>
+							}
+						}
+					</select>
+				</div>
+				<div class="col-2">
+					<button type="submit" class="btn btn-dark" name="ButtonPressed" value="SearchByTeam">
+						Search
+					</button>
+				</div>
+				<input type="hidden" name="FilterType" value="@Model?.FilterType">
+			</div>
+			@if (Model?.SearchedClients != null)
+			{
+				<div id="table_box_bootstrap">
+					<a href="#" class="btn btn-primary" onclick="ExportToPdf()">Export to PDF</a>
+					<table id="mytable" class="table table-hover">
+						<thead>
+							<tr>
+								<th>Action</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>LP Number</th>
+								<th>Phone Number</th>
+								<th>Email</th>
+								<th>Team</th>
+								<th>FOB</th>
+								<th>Picture</th>
+								<th>Notes</th>
+							</tr>
+						</thead>
+						<tbody>
+							@if (Model.SearchedClients.Count == 0)
+							{
+								<tr>
+									<td colspan="6"><i>There are no data available.</i></td>
+								</tr>
+							}
+							@foreach (var item in Model.SearchedClients)
+							{
+								<tr>
+									<td>
+										<button type="submit" class="btn btn-dark" name="Info.ClientID" value="@item.ClientID">
+											Edit
+										</button>
+									</td>
+									<td>@item.FirstName</td>
+									<td>@item.LastName</td>
+									<td>@item.LicensePlateNo</td>
+									<td>@item.Phone</td>
+									<td>@item.Email</td>
+									<td>@item.TeamId</td>
+									<td>@item.FOB</td>
+									<td>@item.Picture</td>
+									<td>@item.Notes</td>
+								</tr>
+							}
+						</tbody>
+					</table>
+					<div class="col-15">
+						<button type="submit" class="btn btn-light" name="ButtonPressed" value="Save">Save as pdf</button>
+					</div>
+				</div>
+			}
+		</div>
+		<div class="col-1"></div>
+		<div class="col-6 justify-content-center">
+			<h5 class="mt-5">New Entry</h5>
+			<div class="row mb-3">
+				<div class="col">
+					<label for="ClientID" class="col-form-label">ID</label>
+					<input type="number" class="form-control" readonly id="ClientID" name="Info.ClientID"
+						value="@Model?.Info?.ClientID" />
+				</div>
+				<div class="col">
+					<label for="FirstName" class="col-form-label">First Name</label>
+					<input type="text" class="form-control" id="FirstName" name="Info.FirstName"
+						value="@Model?.Info?.FirstName" />
+				</div>
+				<div class="col">
+					<label for="LastName" class="col-form-label">Last Name</label>
+					<input type="text" class="form-control" id="LastName" name="Info.LastName"
+						value="@Model?.Info?.LastName" />
+				</div>
+				<div class="col">
+					<label for="LicensePlateNo" class="col-form-label">License Plate</label>
+					<input type="text" class="form-control" id="LicensePlateNo" name="Info.LicensePlateNo"
+						value="@Model?.Info?.LicensePlateNo" />
+				</div>
+				<div class="col">
+					<label for="Phone" class="col-form-label">
+						Phone
+					</label>
+					<input type="Phone" class="form-control" id="Phone" name="Info.Phone"
+						Pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="@Model?.Info?.Phone" />
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col">
+					<label for="Email" class="col-form-label">
+						Email
+					</label>
+					<input type="email" class="form-control" id="Email" name="Info.Email" value="@Model?.Info?.Email" />
+				</div>
+				<div class="col">
+					<label for="TeamId" class="col-form-label">Group</label>
+					<select class="form-select" name="Info.TeamId">
+						<option value="0">select ...</option>
+						@if (Model != null && Model.SelectListOfTeams != null)
+						{
+							@foreach (var item in Model.SelectListOfTeams)
+							{
+								<option value="@item.ValueField" selected=@(Model.Info.TeamId == item.ValueField)>
+									@item.DisplayField
+								</option>
+							}
+						}
+					</select>
+				</div>
+				<div class="col">
+					<label for="FOB" class="col-form-label">
+						FOB
+					</label>
+					<input type="text" class="form-control" id="FOB" name="Info.FOB" value="@Model?.Info?.FOB" />
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-4">
+					<label for="Picture" class="col-form-label">Picture</label>
+					<input type="file" class="form-control" id="Picture" name="Info.Picture"
+						value="@Model?.Info?.Picture" />
+				</div>
+				<div class="col-8 form-floating mb-3">
+					<label for="Notes" class="col-form-label">Notes</label>
+					<input type="text" class="form-control" placeholder="Leave a comment here" id="Notes"
+						style="height: 100px" name="Info.Notes" value="@Model?.Info?.Notes" />
+				</div>
+			</div>
+			<div class="row mb-3 justify-content-center">
+				<div class="col-2">
+					<button type="submit" class="btn btn-dark" disabled=@(Model?.Info?.ClientID != 0)
+						name="ButtonPressed" value="Add">&nbsp;Add&nbsp;&nbsp;&nbsp;</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" class="btn btn-dark" disabled=@(Model?.Info?.ClientID == 0)
+						name="ButtonPressed" value="Update">Update</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" class="btn btn-dark" disabled=@(Model?.Info?.ClientID == 0)
+						name="ButtonPressed" value="Delete">Delete</button>
+				</div>
+				<div class="col-2">
+					<button type="submit" class="btn btn-dark" name="ButtonPressed" value="Clear">Clear</button>
+				</div>
+			</div>
+
+			@if (!string.IsNullOrEmpty(Model?.ErrorMessage))
+			{
+				<p class="error-message">@Model.ErrorMessage</p>
+			}
+			@if (!string.IsNullOrEmpty(Model?.SuccessMessage))
+			{
+				<p class="success-message">@Model.SuccessMessage</p>
+			}
+		</div>
+	</div>
+</form>
+
+<script type="text/javascript" src="~/js/paginator.js"></script>
+
+<script type="text/javascript">
+	window.addEventListener("load", function () {
+		let box = paginator({
+			table: document.getElementById("table_box_bootstrap").getElementsByTagName("table")[0],
+			box_mode: "list",
+		});
+		box.className = "box";
+		let mytarget = document.getElementById("table_box_bootstrap");
+		mytarget.appendChild(box);
+		mytarget.style.display = 'block';
+	}, false);
+</script>
+<script>
+	function ExportToPdf() {
+		var element = document.querySelector('.table');
+		var opt = {
+			margin: [0, 0, 0, 0],
+			filename: 'mytable.pdf',
+			image: { type: 'jpeg', quality: 0.98 },
+			html2canvas: { scale: 2 },
+			jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+		};
+		html2pdf().set(opt).from(element).save();
+		console.log(opt);
+	}
+</script>

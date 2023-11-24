@@ -1,0 +1,124 @@
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex03\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex3\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\bin\Debug\net6.0\webclasslib.runtimeconfig.json
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4\src\webclasslib\obj\Debug\net6.0\webclasslib.genruntimeconfig.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\bin\Debug\net6.0\webclasslib.runtimeconfig.json
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\webclasslib.genruntimeconfig.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\ex4-ex5\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\bin\Debug\net6.0\webclasslib.runtimeconfig.json
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.genruntimeconfig.cache
+C:\ASPdotnetDev\repos\cpsc1517-sep-2022-assessments-vini-raj97\project-begin\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\bin\Debug\net6.0\webclasslib.runtimeconfig.json
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\webclasslib.genruntimeconfig.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\project-begin\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\bin\Debug\net6.0\webclasslib.runtimeconfig.json
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\webclasslib.genruntimeconfig.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\InfoSearch\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\bin\Debug\net6.0\webclasslib.runtimeconfig.json
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\webclasslib.genruntimeconfig.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\Search\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\bin\Debug\net6.0\Select.Html.dep
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\bin\Debug\net6.0\Select.Tools.dep
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\bin\Debug\net6.0\webclasslib.deps.json
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\bin\Debug\net6.0\webclasslib.runtimeconfig.json
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\bin\Debug\net6.0\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\bin\Debug\net6.0\webclasslib.pdb
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.AssemblyReference.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\webclasslib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfoInputs.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\webclasslib.AssemblyInfo.cs
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\webclasslib.csproj.CoreCompileInputs.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\refint\webclasslib.dll
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\webclasslib.pdb
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\webclasslib.genruntimeconfig.cache
+C:\Users\vinit\OneDrive - NAIT\Desktop\Alpha\src\webclasslib\obj\Debug\net6.0\ref\webclasslib.dll
