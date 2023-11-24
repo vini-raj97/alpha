@@ -1,0 +1,73 @@
+﻿@* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form *@
+@* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input *@
+@page
+@model MyApp.Namespace.ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+<div class="container">
+	<h5>Contact Us</h5>
+
+	<p>Fill out the following form to contact us</p>
+
+	@if(!string.IsNullOrEmpty(Model.ErrorMessage))
+	{
+		<p style="color:red; font-weight: bold;">@Model.ErrorMessage</p>
+	}
+
+	@if(!string.IsNullOrEmpty(Model.SuccessMessage))
+	{
+		<p style="color:green; font-weight: bold;">@Model.SuccessMessage</p>
+	}
+
+	<form method="POST" novalidate>
+		<div class="row g-3 mb-2">
+			<div class="col-5">
+				<input type="text" class="form-control" placeholder="message title" name="text1" value="@Model.Text1" />
+			</div>
+		</div>
+		<div class="row g-3">
+			<div class="col-5">
+				<input type="email" class="form-control" placeholder="email" name="Email" value="@Model.Email" />
+			</div>
+            <div class="row g-1">
+                <div class="col-5">
+				<select class="form-select" name="SelectedSubjectId">
+					@for (var index = 0; index < Model.SelectListOfSubjects.Count; index++)
+					{
+						if (Model.SelectedSubjectId == index)
+						{
+							<option value="@index" selected>@Model.SelectListOfSubjects[index]</option>
+						}
+						else
+						{
+							<option value="@index">@Model.SelectListOfSubjects[index]</option>
+						}
+					}
+				</select>
+			</div>
+		</div>
+			
+		<div class="row g-1">
+			<div class="col-5">
+				<textarea class="form-control" 
+				rows="5" cols="60" placeholder="enter your message" name="MessageBody">@Model.MessageBody
+				</textarea>
+			</div>
+		</div>
+		<div class="row g-1">
+			<div class="col-4">
+				<div class="form-check">
+					<label class="form-check-label" for="CheckBox">Active Member</label>
+					<input type="checkbox" class="form-check-input" id="CheckBox" name="CheckBox" checked="@Model.CheckBox" />
+				</div>
+			</div>
+        </div>
+		<div class="row g-2">
+			<div class="col-4">
+				<button type="submit" class="btn btn-dark" name="ButtonPressed" value="Submit">Submit</button>
+				<button type="submit" class="btn btn-dark" name="ButtonPressed" value="Clear">Clear</button>
+			</div>
+		</div>
+	</form>
+</div>

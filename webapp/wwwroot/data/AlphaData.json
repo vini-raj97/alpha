@@ -1,0 +1,34 @@
+{
+  "ClientInfo": {
+    "1": {
+      "FirstName": "John",
+      "LastName": "Doe",
+      "LicensePlateNo": "ABC123",
+      "Phone": "555-1234",
+      "Email": "john@example.com",
+      "TeamId": 1,
+      "FOB": "12345",
+      "Picture": "https://example.com/path/to/john.jpg",
+      "Notes": "Some notes about John"
+    },
+    "2": {
+      "FirstName": "Jane",
+      "LastName": "Doe",
+      "LicensePlateNo": "XYZ789",
+      "Phone": "555-5678",
+      "Email": "jane@example.com",
+      "TeamId": 2,
+      "FOB": "67890",
+      "Picture": "https://example.com/path/to/jane.jpg",
+      "Notes": "Some notes about Jane"
+    }
+  },
+  "TeamInfo": {
+    "1": {
+      "TeamName": "Team Alpha"
+    },
+    "2": {
+      "TeamName": "Team Beta"
+    }
+  }
+}
